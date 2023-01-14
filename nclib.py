@@ -1,3 +1,6 @@
+# This is a smaller Version of the NCLib, only with methods that NCCrypt uses
+# The full NCLib can be found on GitHub
+
 def AddAndReset(min, max, first, second): # if a+b > max -> min + ( b - (max - a))
 
     if second > max or first > max or second < min or first < min:
